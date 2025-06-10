@@ -10,20 +10,19 @@ export default function About() {
         </p>
         <div className="flex justify-center lg:justify-start gap-10 mb-10">
           <div>
-            <h3 className="text-4xl font-bold text-purple-700">2+ Y.</h3>
+            <h3 className="text-4xl font-bold text-purple-700">2+Y</h3>
             <p className="text-sm text-gray-500">Experience</p>
           </div>
           <div>
-            <h3 className="text-4xl font-bold text-purple-700">20+</h3>
+            <h3 className="text-4xl font-bold text-purple-700">10+</h3>
             <p className="text-sm text-gray-500">Projects</p>
           </div>
           <div>
-            <h3 className="text-4xl font-bold text-purple-700">15+</h3>
+            <h3 className="text-4xl font-bold text-purple-700">10+</h3>
             <p className="text-sm text-gray-500">Infrastructure Automations</p>
           </div>
         </div>
-        <a
-  href="gbhange18@gmail.com" // <--- REPLACE WITH YOUR ACTUAL EMAIL
+        <a href="mailto:gbhange18@gmail.com" // <--- REPLACE WITH YOUR ACTUAL EMAIL
   className="bg-purple-700 text-white px-10 py-3 rounded-full font-semibold shadow hover:bg-purple-800 transition inline-block text-center"
 >
   Hire Me
