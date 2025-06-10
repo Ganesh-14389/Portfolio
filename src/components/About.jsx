@@ -22,7 +22,12 @@ export default function About() {
             <p className="text-sm text-gray-500">Infrastructure Automations</p>
           </div>
         </div>
-        <button className="bg-purple-700 text-white px-10 py-3 rounded-full font-semibold shadow hover:bg-purple-800 transition">Hire Me</button>
+        <a
+  href="gbhange18@gmail.com" // <--- REPLACE WITH YOUR ACTUAL EMAIL
+  className="bg-purple-700 text-white px-10 py-3 rounded-full font-semibold shadow hover:bg-purple-800 transition inline-block text-center"
+>
+  Hire Me
+</a>
       </div>
       <div>
       <img src={import.meta.env.BASE_URL + 'ganesh.png'} alt="Ganesh Bhange" className="rounded-3xl w-80 shadow-xl border border-gray-200" />
