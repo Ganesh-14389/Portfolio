@@ -9,6 +9,6 @@ export default defineConfig(({ command }) => {
   return {
     plugins: [react()],
     // Set base conditionally
-    base: isProductionBuildForGhPages ? '/Ganesh/' : '/',
+    base: isProductionBuildForGhPages ? '/Portfolio/' : '/',
   };
 });

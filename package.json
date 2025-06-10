@@ -1,13 +1,13 @@
 {
-  "homepage": "https://Ganesh-14389.github.io/Ganesh/",
+  "homepage": "https://Ganesh-14389.github.io/Portfolio/",
   "name": "my-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "VITE_APP_DEPLOY_BASE_URL=true npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
