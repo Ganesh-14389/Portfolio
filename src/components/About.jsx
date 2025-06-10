@@ -25,7 +25,7 @@ export default function About() {
         <button className="bg-purple-700 text-white px-10 py-3 rounded-full font-semibold shadow hover:bg-purple-800 transition">Hire Me</button>
       </div>
       <div>
-        <img src="/ganesh.png" alt="Ganesh Bhange" className="rounded-3xl w-80 shadow-xl border border-gray-200" />
+      <img src={import.meta.env.BASE_URL + 'ganesh.png'} alt="Ganesh Bhange" className="rounded-3xl w-80 shadow-xl border border-gray-200" />
       </div>
     </section>
   );
