@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "VITE_APP_DEPLOY_BASE_URL=true npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
