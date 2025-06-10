@@ -2,9 +2,9 @@ export default function Education() {
   return (
     <section className="py-20 px-4 bg-white flex justify-center">
       <div className="bg-gray-50 rounded-3xl shadow-xl p-10 flex flex-col lg:flex-row items-center gap-8 max-w-6xl">
-      <img 
-  src="/Amazon_Web_Services_Logo.svg.png" 
-  alt="Ganesh Bhange" 
+      <img
+  src={import.meta.env.BASE_URL + 'Amazon_Web_Services_Logo.svg.png'}
+  alt="Ganesh Bhange"
   className="w-64 rounded-xl bg-transparent border-none shadow-none"
 />
         <div className="text-center lg:text-left">
